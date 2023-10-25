@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Title">Cielo App</sys:String>
+    <sys:String x:Key="Korean">Korean</sys:String>
+    <sys:String x:Key="English">English</sys:String>
+    <sys:String x:Key="Chinese">Chinese</sys:String>
+    <sys:String x:Key="Japanese">Japanese</sys:String>
+</ResourceDictionary>
