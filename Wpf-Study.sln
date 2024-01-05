@@ -9,9 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfCustomApp", "WpfCustomAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfBTApp", "WpfBTApp\WpfBTApp.csproj", "{C32A1ACE-D0C7-4A80-A49C-3E0B536A371A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfReflector", "WpfReflector\WpfReflector.csproj", "{D8E4C130-620C-4395-9C89-B5DDC6AD2E9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfReflector", "WpfReflector\WpfReflector.csproj", "{D8E4C130-620C-4395-9C89-B5DDC6AD2E9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CieloReflector.Forms", "CieloReflector.Forms\CieloReflector.Forms.csproj", "{72A67CB4-BAC0-43B8-8D6D-214300E04F3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CieloReflector.Forms", "CieloReflector.Forms\CieloReflector.Forms.csproj", "{72A67CB4-BAC0-43B8-8D6D-214300E04F3A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Studio", "Studio", "{51479782-E012-409E-8D3A-5DEBFECD45C2}"
 EndProject
@@ -21,7 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z", "Z", "{6663343C-BB72-43
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Based", "Based", "{D7DBA184-3654-4DCF-AFAD-A05E109D6DDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CieloReflector.LayoutSupport", "CieloReflector.LayoutSupport\CieloReflector.LayoutSupport.csproj", "{CFCDFBDD-BD04-450A-8AAD-0015865A181F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CieloReflector.LayoutSupport", "CieloReflector.LayoutSupport\CieloReflector.LayoutSupport.csproj", "{CFCDFBDD-BD04-450A-8AAD-0015865A181F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomScrollViewer", "CustomScrollViewer", "{D144CA01-2349-49FD-B2BE-315B3838F8BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomScrollViewer", "CustomScrollViewer\CustomScrollViewer.csproj", "{5B7CE386-3DC4-4E63-B8A6-3741D069DB22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{CFCDFBDD-BD04-450A-8AAD-0015865A181F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFCDFBDD-BD04-450A-8AAD-0015865A181F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFCDFBDD-BD04-450A-8AAD-0015865A181F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7CE386-3DC4-4E63-B8A6-3741D069DB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7CE386-3DC4-4E63-B8A6-3741D069DB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7CE386-3DC4-4E63-B8A6-3741D069DB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7CE386-3DC4-4E63-B8A6-3741D069DB22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{D8E4C130-620C-4395-9C89-B5DDC6AD2E9B} = {51479782-E012-409E-8D3A-5DEBFECD45C2}
 		{72A67CB4-BAC0-43B8-8D6D-214300E04F3A} = {A87CBCE1-C049-4E08-9276-B5C8CD177CDE}
 		{CFCDFBDD-BD04-450A-8AAD-0015865A181F} = {D7DBA184-3654-4DCF-AFAD-A05E109D6DDE}
+		{5B7CE386-3DC4-4E63-B8A6-3741D069DB22} = {D144CA01-2349-49FD-B2BE-315B3838F8BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {56B2D88B-CE21-4473-BB2B-D0444A482F5D}
